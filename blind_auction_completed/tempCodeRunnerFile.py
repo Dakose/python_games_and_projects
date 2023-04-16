@@ -1,0 +1,1 @@
+should_continue = input('Are there any other bidders? Type \'yes\' or \'no\'.')
