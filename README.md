@@ -1,4 +1,4 @@
-#That is Python game projects
+#That is Python minigame projects::
 
 #'password_generator' - its just simple password generator)
 
