@@ -25,10 +25,9 @@ def start_game():
         account_b = random.choice(data)
         if account_a == account_b:
             account_b = random.choice(data)
-        os.system('cls')
-
+        
         print(logo)
-
+        print(f'Current score: {score}')
         print(f'Compare A: {format_data(account_a)}')
 
         print(vs)
@@ -44,6 +43,7 @@ def start_game():
         if is_correct:
             score += 1
             print(f'You\'re right! Current score: {score}')
+            os.system('cls')
         else:
             game_should_continue = False
             print(f'Sorry, that\'s wrong. Final score: {score}')
