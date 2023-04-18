@@ -1,11 +1,11 @@
 #That is Python minigame projects::
 
 #Projects:
-
 #'code_for_coffee_machine' - its a logic for Coffee mashine (You input coffee, coins idc...)
 
-#Simple games:
 
+
+#Simple games:
 #'password_generator' - its just simple password generator)
 
 #'cesar_cipher' - cupher by Cesar, when u coded or decoded words (u choise)
