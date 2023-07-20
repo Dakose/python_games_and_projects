@@ -18,12 +18,12 @@ LONG_BREAK_MIN = 20
 
 # UI SETUP
 window = Tk()
-window.title('Pomodoro')
+window.title('Pomodorooooooo')
 window.config(padx=100, pady=50, bg=YELLOW)
 
-start_button = Button(text='Start', fg='blue', bg='white')
+start_button = Button(text='Start', fg='blue', bg='white', highlightthickness=0)
 start_button.grid(column=0, row=2)
-reset_button = Button(text='Reset', fg='blue', bg='white')
+reset_button = Button(text='Reset', fg='blue', bg='white', highlightthickness=0)
 reset_button.grid(column=2, row=2)
 
 label = Label(text='Timer', fg=GREEN, bg=YELLOW, font=(FONT_NAME, 40, 'bold'))
