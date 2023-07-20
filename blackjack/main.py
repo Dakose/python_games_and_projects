@@ -6,13 +6,11 @@ def play_game():
     os.system('cls')
     print(logo)
     def deal_card():
-        '''return a random card from the dec'''
         cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
         card = random.choice(cards)
         return card
 
     def calculate_score(cards):
-        '''Take a list of cards and return the score calculated from the cards'''
         if sum(cards) == 21 and len(cards) == 2:
             return 0
 
@@ -66,7 +64,7 @@ def play_game():
         computer_score = calculate_score(computer_cards)
 
 
-    print(f'    Your final hand is: {user_cards}, final score: {user_score}')
+    print(f'    Your final hand: {user_cards}, final score: {user_score}')
     print(f'    Computer`s final hand: {computer_cards}, final score: {computer_score}')
     print(compare(user_score, computer_score))
 
